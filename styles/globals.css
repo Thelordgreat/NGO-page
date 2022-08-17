@@ -1,8 +1,14 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+body{
+  max-width: 1600px;
+  margin: auto;
+  font-family: 'Raleway', BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -12,15 +18,21 @@ a {
 }
 
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+h2{
+  font-size: 1.7rem;
+  color: rgb(61, 61, 61);
 }
+
+p{
+  font-size: 1.3rem;
+}
+
+
+

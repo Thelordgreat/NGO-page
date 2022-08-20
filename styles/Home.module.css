@@ -65,9 +65,12 @@
   padding: 0.5rem;
 }
 
-.img {
-  width: 550px;
-  height: 450px;
+.img_container {
+  margin: auto;
+}
+
+.img_container img{
+  border-radius: 2rem;
 }
 
 .button {
@@ -90,19 +93,30 @@
 }
 
 .third_section div {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 30px;
   text-align: center;
-}
-
-.third_section div:hover {
-  transform: scale(1.1);
-  transition: 1s;
 }
 
 .third_section .figures {
   color: #ee9b57;
   font-size: 3.5rem;
+}
+
+.fourth_section {
+  width: 100%;
+  height: 60vh;
+  background-image: url(../public/images/bill-wegener-LqOO5Ko0zSo-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 400px;
+  margin: 7rem 0;
+  filter: blur(2px);
+  box-shadow: -2px 200px 199px -79px rgba(255, 255, 255, 0.92) inset;
+}
+
+.fourth_section_content {
+  position: absolute;
 }
 
 @media (max-width: 960px) {
@@ -128,6 +142,10 @@
 @media (max-width: 650px) {
   .first_section {
     width: 99%;
+  }
+
+  .second_section {
+    max-width: 98%;
   }
 
   .large_heading {

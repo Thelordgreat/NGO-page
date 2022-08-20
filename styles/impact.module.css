@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+.header {
+  width: 100%;
+  height: 90vh;
+  max-height: 420px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../public/images/edward-cisneros-r_Tnjj6TB30-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header_content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header_content .heading {
+  color: #ffffff;
+  font-size: 3.5rem;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.heading span {
+  color: #ee9b57;
+}
+
+/*====== First section ========= */
+
+.first_section {
+  width: 100%;
+}
+
+.first_section .first_section_content {
+  max-width: 70%;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+}
+
+.first_section_content .first_box {
+  max-width: 48%;
+}
+
+.first_section_content .first_box .top {
+  margin-bottom: 2rem;
+}
+
+.first_section_content .first_box .top h2 {
+  font-size: 2.5rem;
+  line-height: 1.3;
+}
+
+.first_section_content .first_box .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first_section_content .first_box .bottom div p {
+  line-height: 1.7;
+}
+
+.first_section_content .first_box .bottom .card {
+  width: 120px;
+  height: 130px;
+  padding: 0.5rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1;
+  background-color: #49b5a0;
+  margin-right: 1.6rem;
+}
+
+.first_section_content .first_box .bottom .card h3 {
+  font-size: 2.2rem;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 1rem;
+}
+
+.first_section_content .second_box {
+  max-width: 48%;
+}
+
+.second_box h3 {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.second_box div {
+  display: flex;
+  background-color: #fcf2ed;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.second_box div:nth-child(3) {
+  background-color: #e9f6f4;
+}
+
+.second_box div p {
+  font-size: 15px;
+  padding-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.first_section_content .second_box .btn {
+  border: 1px solid;
+  padding: 12px 25px;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+/*========== Second section ========= */
+.second_section {
+  width: 100%;
+  
+}
+
+.second_section_content {
+  max-width: 70%;
+  margin: 1.5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.second_section_content .box {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  line-height: 1.8;
+}
+
+/* ======================== */
+
+.third_section{
+  margin-top: 2rem;
+}
+
+.third_section_content{
+  max-width: 70%;
+  margin: auto;
+  padding: 2.5rem;
+  line-height: 1.5;
+  display: flex;
+  border-radius: 4px;
+  background-color: #fe6711;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  color: #ffffff;
+  transform: translateY(80px);
+}
+
+.third_section_content h2{
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.third_section_content div:nth-child(1){
+  width: 80%;
+}
+
+.third_section_content div .btn{
+  border: 1px solid;
+  background-color: transparent;
+  padding: 12px 25px;
+  border-radius: 20px;
+  margin-top: 1.5rem;
+  color: #ffffff;
+}
+
+/*======= General media queries ============ */
+
+@media (max-width: 960px) {
+  .first_section .first_section_content {
+    max-width: 98%;
+  }
+}
+
+@media (max-width: 820px) {
+  .first_section .first_section_content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .first_section .first_section_content .first_box {
+    max-width: 70%;
+    margin: auto;
+  }
+
+  .first_section_content .first_box .bottom .card{
+    margin-right: 1rem;
+  }
+
+  
+  .first_section .first_section_content .second_box {
+    margin: 3rem auto;
+    max-width: 70%;
+  }
+
+  .second_section_content{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .third_section_content{
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 650px) {
+  .header_content .heading{
+    font-size: 2.3rem;
+  }
+
+  .first_section .first_section_content .first_box {
+    max-width: 98%;
+  }
+
+  .first_section .first_section_content .second_box {
+    max-width: 98%;
+  }
+
+  .second_box div{
+    padding: .5rem;
+  }
+
+  .second_section_content{
+    max-width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .third_section_content{
+    max-width: 98%;
+    flex-direction: column;
+    padding: .5rem;
+  }
+
+  .third_section_content h2{
+    font-size: 1.8rem;
+  }
+}

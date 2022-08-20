@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>NGO website</title>
         <meta name="description" content="generated using next app" />
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="home1.jpg" type="image/x-icon" />
       </Head>
       
       <Hero />

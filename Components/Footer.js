@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import styles from "../styles/Footer.module.css";
+import { FaFacebook } from "react-icons/fa";
+import { BsTwitter, BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -27,13 +29,13 @@ const Footer = () => {
           <h3>LEARN MORE</h3>
           <ul>
             <li>
-              <Link href="/">ABOUT US</Link>
+              <Link href="/about">ABOUT US</Link>
             </li>
             <li>
-              <Link href="/">OUR IMPACT</Link>
+              <Link href="/impact">WHAT WE DO</Link>
             </li>
             <li>
-              <Link href="/">OUR STORIES</Link>
+              <Link href="/">CONTACT</Link>
             </li>
           </ul>
         </div>
@@ -41,7 +43,11 @@ const Footer = () => {
         <div>
           <h3>CONNECT WITH US</h3>
 
-          <div className={styles.socials}></div>
+          <div className={styles.socials}>
+            <FaFacebook className={styles.socials_icon} />
+            <BsTwitter className={styles.socials_icon} />
+            <BsInstagram className={styles.socials_icon}/>
+          </div>
         </div>
       </div>
 

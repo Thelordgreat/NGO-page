@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import styles from "../styles/Home.module.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -43,16 +44,18 @@ const Home = () => {
             </p>
 
             <div className={styles.button}>
-              <Link href="/">LEARN MORE</Link>
+              <Link href="/about">LEARN MORE</Link>
               <AiOutlineArrowRight />
             </div>
           </div>
 
-          <div>
-            <img
-              src="https://images.unsplash.com/photo-1548102245-c79dbcfa9f92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=696&q=80"
+          <div className={styles.img_container}>
+            <Image
+              src="/images/zach-vessels-jLbmY5Zp7UQ-unsplash.jpg"
               alt="img"
               className={styles.img}
+              width={500}
+              height={450}
             />
           </div>
         </section>
@@ -71,6 +74,10 @@ const Home = () => {
             <h5>Partners involved in our program</h5>
           </div>
         </section>
+
+        <section className={styles.fourth_section}></section>
+
+        <section className={styles.fifth_section}></section>
       </div>
     </div>
   );

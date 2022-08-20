@@ -1,0 +1,103 @@
+.about_header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../public/images/larm-rmah-AEaTUnvneik-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    max-height: 380px;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.about_header h2{
+    color: #ffffff;
+    margin: auto;
+    font-size: 4rem;
+}
+
+.about_header h2 span{
+    color: #ee9b57;
+}
+
+.first_section_content{
+    max-width: 85%;
+    margin: 4rem auto;
+}
+
+
+.second_section_content{
+    max-width: 75%;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 1.5
+}
+
+.first_box{
+    margin: 1rem;
+}
+
+.first_box h2{
+    font-size: 2.5rem;
+}
+
+.first_box::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 3px;
+    height: 50%;
+    background: #ee9b57;
+    left: -7px;
+    top: 50%;
+    bottom: 0;
+}
+
+.first_box .middle_content{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.first_box .middle_content .card{
+    background-color: #ee9b57;
+    color: #ffffff;
+    padding: .8rem 1.6rem;
+    margin-right: 1rem;
+}
+
+.second_box{
+    margin: 1rem;
+}
+
+.second_box h2{
+    font-size: 2.5rem;
+}
+
+.second_box h3{
+    color: #ee9b57;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.second_box p{
+    margin-bottom: 1rem;
+}
+
+.second_box img{
+    border-radius: 1rem;
+}
+
+@media (max-width: 960px) {
+    .second_section_content{
+        max-width: 98%;
+    }
+}
+
+@media (max-width: 650px) {
+    .second_section_content{
+        max-width: 98%;
+        grid-template-columns: 1fr;
+    }
+}

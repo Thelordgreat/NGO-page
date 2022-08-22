@@ -35,7 +35,7 @@ const Footer = () => {
               <Link href="/impact">WHAT WE DO</Link>
             </li>
             <li>
-              <Link href="/">CONTACT</Link>
+              <Link href="/contact">CONTACT</Link>
             </li>
           </ul>
         </div>
@@ -44,9 +44,9 @@ const Footer = () => {
           <h3>CONNECT WITH US</h3>
 
           <div className={styles.socials}>
-            <FaFacebook className={styles.socials_icon} />
-            <BsTwitter className={styles.socials_icon} />
-            <BsInstagram className={styles.socials_icon}/>
+            <Link href="/"><FaFacebook className={styles.socials_icon} /></Link>
+            <Link href="/"><BsTwitter className={styles.socials_icon} /></Link>
+            <Link href="/"><BsInstagram className={styles.socials_icon}/></Link>
           </div>
         </div>
       </div>

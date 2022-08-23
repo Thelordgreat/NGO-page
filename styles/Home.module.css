@@ -140,6 +140,10 @@
 }
 
 @media (max-width: 650px) {
+  .texts{
+    margin-left: 1rem;
+  }
+
   .first_section {
     width: 99%;
   }

@@ -115,7 +115,7 @@ const impact = () => {
           <div className={Styles.box}>
             <Image
               src="/images/Education.png"
-              alt="water"
+              alt="education"
               width={90}
               height={80}
             />
@@ -146,7 +146,7 @@ const impact = () => {
           </div>
 
           <div className={Styles.box}>
-            <Image src="/images/gift.png" alt="water" width={90} height={80} />
+            <Image src="/images/gift.png" alt="gift" width={90} height={80} />
             <h3>Send a gift for children</h3>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
@@ -166,9 +166,9 @@ const impact = () => {
           </div>
 
           <div>
-            
-              <button className={Styles.btn}><Link href="/contact">Volunteer</Link></button>
-            
+            <button className={Styles.btn}>
+              <Link href="/contact">Volunteer</Link>
+            </button>
           </div>
         </div>
       </section>

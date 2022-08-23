@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className={styles.nav}>
-      <h1 className={styles.brand}>Food Runners</h1>
+      <Link href="/"><h1 className={styles.brand}>Food Runners</h1></Link>
 
       <ul className={styles.links}>
         <li>
@@ -29,9 +29,9 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <a href="/contact" className={styles.contact}>
-        Contact
-      </a>
+      <Link href="/contact">
+        <button className={styles.contact}>Contact</button>
+      </Link>
 
       {/* mobile button */}
       <div className={styles.menu_btn}>

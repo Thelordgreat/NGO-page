@@ -85,7 +85,7 @@ const impact = () => {
             </div>
 
             <button className={Styles.btn}>
-              <Link href="/">Learn More</Link>
+              <Link href="/about">Learn More</Link>
             </button>
           </div>
         </div>

@@ -181,6 +181,10 @@
   .first_section .first_section_content {
     max-width: 98%;
   }
+
+  .second_section_content{
+    max-width: 90%;
+  }
 }
 
 @media (max-width: 820px) {

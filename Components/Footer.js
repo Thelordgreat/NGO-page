@@ -44,9 +44,9 @@ const Footer = () => {
           <h3>CONNECT WITH US</h3>
 
           <div className={styles.socials}>
-            <Link href="/"><FaFacebook className={styles.socials_icon} /></Link>
-            <Link href="/"><BsTwitter className={styles.socials_icon} /></Link>
-            <Link href="/"><BsInstagram className={styles.socials_icon}/></Link>
+            <Link href="https://facebook.com" redirect><FaFacebook className={styles.socials_icon} /></Link>
+            <Link href="https://twitter.com"><BsTwitter className={styles.socials_icon} /></Link>
+            <Link href="https://instagram.com"><BsInstagram className={styles.socials_icon}/></Link>
           </div>
         </div>
       </div>

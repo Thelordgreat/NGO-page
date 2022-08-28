@@ -10,55 +10,55 @@ const gallery = () => {
 
         <div className={Styles.images_container}>
           <Image
-            src="/images/edward-cisneros-r_Tnjj6TB30-unsplash.jpg"
+            src="/images/charlein-gracia-dDrQPSbYQRk-unsplash.jpg"
             width={400}
             height={400}
             alt="img"
           />
           <Image
-            src="/images/edward-cisneros-r_Tnjj6TB30-unsplash.jpg"
+            src="/images/charlein-gracia-dDrQPSbYQRk-unsplash.jpg"
             width={400}
             height={400}
             alt="img"
           />
           <Image
-            src="/images/edward-cisneros-r_Tnjj6TB30-unsplash.jpg"
+            src="/images/charlein-gracia-dDrQPSbYQRk-unsplash.jpg"
             width={400}
             height={400}
             alt="img"
           />
           <Image
-            src="/images/edward-cisneros-r_Tnjj6TB30-unsplash.jpg"
+            src="/images/charlein-gracia-dDrQPSbYQRk-unsplash.jpg"
             width={400}
             height={400}
             alt="img"
           />
           <Image
-            src="/images/edward-cisneros-r_Tnjj6TB30-unsplash.jpg"
+            src="/images/charlein-gracia-dDrQPSbYQRk-unsplash.jpg"
             width={400}
             height={400}
             alt="img"
           />
           <Image
-            src="/images/edward-cisneros-r_Tnjj6TB30-unsplash.jpg"
+            src="/images/charlein-gracia-dDrQPSbYQRk-unsplash.jpg"
             width={400}
             height={400}
             alt="img"
           />
           <Image
-            src="/images/edward-cisneros-r_Tnjj6TB30-unsplash.jpg"
+            src="/images/charlein-gracia-dDrQPSbYQRk-unsplash.jpg"
             width={400}
             height={400}
             alt="img"
           />
           <Image
-            src="/images/edward-cisneros-r_Tnjj6TB30-unsplash.jpg"
+            src="/images/charlein-gracia-dDrQPSbYQRk-unsplash.jpg"
             width={400}
             height={400}
             alt="img"
           />
           <Image
-            src="/images/edward-cisneros-r_Tnjj6TB30-unsplash.jpg"
+            src="/images/charlein-gracia-dDrQPSbYQRk-unsplash.jpg"
             width={400}
             height={400}
             alt="img"

@@ -50,6 +50,7 @@
   .footer {
     height: fit-content;
     max-height: fit-content;
+    margin-bottom: 0;
   }
 
   .footer_content {

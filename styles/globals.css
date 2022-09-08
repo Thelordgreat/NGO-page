@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap");
 
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
 body {
   max-width: 1600px;
@@ -22,6 +22,7 @@ a {
   box-sizing: border-box;
   scroll-behavior: smooth;
   list-style: none;
+  user-select: none;
 }
 
 h2 {

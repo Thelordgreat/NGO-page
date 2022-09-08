@@ -19,19 +19,29 @@
   margin-bottom: 2.5rem;
 }
 
+.footer_content h1 {
+  font-weight: 700;
+  font-size: 33px;
+}
+
+.footer_content h3 {
+  font-weight: 700;
+  font-size: 19px;
+}
+
 .contact {
   width: 22%;
 }
 
-.socials{
-    display: flex;
-    justify-content: space-between;
+.socials {
+  display: flex;
+  justify-content: space-between;
 }
 
-.socials_icon{
-    font-size: 1.4rem;
-    margin-top: .5rem;
-    cursor: pointer;
+.socials_icon {
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
 }
 
 .line {
@@ -61,7 +71,7 @@
     display: none;
   }
 
-  .socials{
+  .socials {
     width: 50%;
   }
 }
@@ -80,7 +90,7 @@
     margin: 1rem 0;
   }
 
-  .socials{
+  .socials {
     width: 30%;
   }
 

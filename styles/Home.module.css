@@ -41,7 +41,13 @@
 
 .small_heading {
   color: #ee9b57;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.large_heading{
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .line {
@@ -100,6 +106,10 @@
 .third_section .figures {
   color: #ee9b57;
   font-size: 3.5rem;
+}
+
+.third_section h5{
+  font-weight: 500;
 }
 
 .fourth_section {

@@ -47,6 +47,7 @@
   color: #ee9b57;
   font-size: 1.7rem;
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 .second_section_content {
@@ -64,6 +65,7 @@
 
 .first_box h2 {
   font-size: 2.5rem;
+  font-weight: 500;
 }
 
 .first_box::before {
@@ -108,12 +110,14 @@
 
 .second_box h2 {
   font-size: 2.5rem;
+  font-weight: 500;
 }
 
 .second_box h3 {
   color: #ee9b57;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 
 .second_box p {
@@ -130,10 +134,11 @@
 }
 
 .third_section_content h2.heading {
-  font-size: 1.7rem;
+  font-size: 2rem;
   margin-bottom: 1.5rem;
   text-align: center;
   position: relative;
+  font-weight: 500;
 }
 
 .third_section_body {
@@ -145,6 +150,16 @@
 .third_section_body div {
   padding: 1.5rem;
   position: relative;
+}
+
+.third_section_body div h2{
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.third_section_body div h3{
+  font-weight: 600;
+  font-size: 1.3rem;
 }
 
 .third_section_body div::before {

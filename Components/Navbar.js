@@ -3,11 +3,18 @@ import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
-  const [nav, setNav] = useState("false");
+  const [nav, setNav] = useState(false);
+  const [active, setActive] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
+    setActive(!active);
   };
+
+  const handleClose = () => {
+    setActive(false);
+    setNav(false);
+  }
 
   return (
     <div className="fixed flex px-[20px] bg-white w-full h-[70px] justify-between items-center md:px-[30px] z-[100] border-b-2 max-w-screen-mw m-auto">
@@ -47,28 +54,30 @@ const Navbar = () => {
 
       {/* mobile menu */}
 
-      <div
-        id="menu"
-        className="md:hidden absolute flex flex-col items-center self-end hidden py-8 mt-10 space-y-6 bg-white sm:w-auto sm:self-center left-6 right-6 top-8 drop-shadow-md"
-      >
-        <ul className="text-center">
-          <li className="py-2">
-            <Link href="/">Home</Link>
-          </li>
-          <li className="py-2">
-            <Link href="/about">About Us</Link>
-          </li>
-          <li className="py-2">
-            <Link href="/impact">What We Do</Link>
-          </li>
-          <li className="py-2">
-            <Link href="/gallery">Gallery</Link>
-          </li>
-          <li className="py-2">
-            <Link href="/contact">Contact</Link>
-          </li>
-        </ul>
-      </div>
+      {active && (
+        <div
+          id="menu"
+          className="md:hidden absolute flex flex-col items-center self-end py-8 mt-10 space-y-6 bg-white sm:w-auto sm:self-center left-6 right-6 top-8 drop-shadow-md"
+        >
+          <ul className="text-center">
+            <li className="py-2" onClick={handleClose}>
+              <Link href="/">Home</Link>
+            </li>
+            <li className="py-2" onClick={handleClose}>
+              <Link href="/about">About Us</Link>
+            </li>
+            <li className="py-2" onClick={handleClose}>
+              <Link href="/impact">What We Do</Link>
+            </li>
+            <li className="py-2" onClick={handleClose}>
+              <Link href="/gallery">Gallery</Link>
+            </li>
+            <li className="py-2" onClick={handleClose}>
+              <Link href="/contact">Contact</Link>
+            </li>
+          </ul>
+        </div>
+      )}
     </div>
   );
 };

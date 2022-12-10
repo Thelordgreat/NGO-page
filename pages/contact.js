@@ -34,7 +34,7 @@ const contact = () => {
     <div className={Styles.contact_container}>
       <div className={Styles.contact_content}>
         <section className={Styles.first_section}>
-          <a href="#">
+          <a href="tel:+12345678900">
             <div className={Styles.box}>
               <FiPhoneCall className={Styles.icon} />
               <h3>Call us</h3>
